@@ -155,3 +155,61 @@ h3{
     height: 30rem;
     border: 1px solid black;
 }
+
+/* user's info */
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.user-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    min-height: 20rem;
+    border: 1px solid black;
+}
+
+.square{
+    width: calc(100% / 2);
+    height: 316.16px;
+    border: 1px solid black;
+}
+
+/* freetrial */
+.section-w-100{
+    width: 100%;
+    min-height: 10rem;
+    background-color: crimson;
+    padding: 5rem 0;
+}
+
+.freetrial-box{
+    display: flex;
+    width: 100%;
+    min-height: 10rem;
+}
+
+.freetrial-left, .freetrial-right{
+    width: calc(100% / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freetrial-h2{
+    padding: 0.5rem 0;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.freetrial-button{
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+/* FAQ */
