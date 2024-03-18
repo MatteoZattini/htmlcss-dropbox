@@ -213,3 +213,7 @@ h3{
 }
 
 /* FAQ */
+.questions{
+    font-weight: bold;
+    line-height: 5rem;
+}
