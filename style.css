@@ -94,7 +94,7 @@ h1{
 
 h2{
     font-size: 3rem;
-    margin-top: 7rem;
+    margin-top: 8rem;
     margin-bottom: 3rem;
 }
 
@@ -136,4 +136,22 @@ label{
 
 h3{
     margin-bottom: 1rem;
+}
+
+/* dropbox function */
+.function-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    min-height: 20rem;
+    border: 1px solid black;
+    margin-top: 6rem;
+}
+
+.function-element{
+    width: calc(95% / 3);
+    height: 30rem;
+    border: 1px solid black;
 }
