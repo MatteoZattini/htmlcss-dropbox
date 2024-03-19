@@ -9,7 +9,7 @@
 nav{
     width: 100%;
     height: 100px;
-    background-color: aquamarine;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ nav{
 }
 
 .nav-left > a:hover{
-    padding-bottom: 41px;
+    padding-bottom: 36px;
     border-bottom: 2px solid black;
 }
 
@@ -41,7 +41,7 @@ a{
 }
 
 button{
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
     font-size: 1rem;
     padding: 0.5rem 1rem;
@@ -54,7 +54,7 @@ button{
     width: 100%;
     /* add max or min height */
     height: 45rem; 
-    background-color: aqua;
+    background-color: #b4d0e7;
 }
 
 .jumbo-box{
@@ -63,7 +63,6 @@ button{
     margin-left: 10%;
     margin-right: 10%;
     padding: 1rem;
-    background-color: blueviolet;
 }
 
 h1{
@@ -85,6 +84,10 @@ h1{
     width: 70%;
 }
 
+.jumbo-right > img{
+    width: 100%;
+}
+
 .jumbo-left > button{
     margin: 1.5rem 0;
 }
@@ -104,7 +107,7 @@ h1{
 
 h2{
     font-size: 3rem;
-    margin-top: 8rem;
+    margin-top: 20rem;
     margin-bottom: 3rem;
 }
 
@@ -118,31 +121,28 @@ label{
     width: 100%;
     min-height: 10rem;
     margin-top: 3rem;
-    border: 1px solid black;
 }
 
 .atomicwasbetter-box{
     width: 100%;
     min-height: 10rem;
     margin-top: 3rem;
-    border: 1px solid black;
 }
 
 .content-box > div{
     width: calc(90% / 3);
-    height: 80rem;
-    border: 1px solid black;
+    min-height: 30rem;
 }
 
 .top-box{
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-bottom: none;
     text-align: center;
     padding: 1rem 0;
 }
 
 .main-box{
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: 1rem;
 }
 
@@ -152,7 +152,7 @@ label{
 
 .main2-box{
     position: relative;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     padding: 1rem;
 }
 
@@ -171,7 +171,16 @@ label{
     min-height: 10rem;
 }
 
+.partner-left > img{
+    width: 100%;
+}
+
+.partner-left{
+    width: 60%;
+}
+
 .partner-right{
+    width: 40%;
     margin-left: 1rem;
 }
 
@@ -191,14 +200,16 @@ h3{
     gap: 1rem;
     width: 100%;
     min-height: 20rem;
-    border: 1px solid black;
     margin-top: 6rem;
 }
 
 .function-element{
     width: calc(95% / 3);
-    height: 30rem;
-    border: 1px solid black;
+    min-height: 40rem;
+}
+
+.function-element > img{
+    width: 100%;
 }
 
 /* user's info */
@@ -213,22 +224,59 @@ h3{
     flex-wrap: wrap;
     width: calc(100% / 3);
     aspect-ratio: 1 / 1;
-    /* min-height: 20rem; */
-    border: 1px solid black;
+    background-color: lightgray;
 }
 
 .square{
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
-    /* height: 316.16px; */
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.square > img{
+    width: 100%;
+}
+
+.des{
+    background-color: #a2d39b;
+}
+
+.asu{
+    background-color: #61082b;
+}
+
+.uf{
+    background-color: #0093ce;
+}
+
+.tops{
+    background-color: #ff1c1c;
+}
+
+.wbr{
+    background-color: #d5001f;
+}
+
+.hea{
+    background-color: #b4d0e7;
+}
+
+.lon{
+    background-color: #0d2481;
+}
+
+.cle{
+    background-color: #ffd830;
 }
 
 /* freetrial */
 .section-w-100{
     width: 100%;
     min-height: 10rem;
-    background-color: crimson;
+    background-color: #b4d0e7;
     padding: 5rem 0;
 }
 
