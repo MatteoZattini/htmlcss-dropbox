@@ -100,9 +100,9 @@ h1{
 
 /************ main ***********/
 .section1{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h2{
@@ -127,6 +127,7 @@ label{
     width: 100%;
     min-height: 10rem;
     margin-top: 3rem;
+    border: 1px solid lightgray;
 }
 
 .content-box > div{
@@ -134,25 +135,53 @@ label{
     min-height: 30rem;
 }
 
-.top-box{
+.border{
     border: 1px solid lightgray;
-    border-bottom: none;
+}
+
+.top-box{
+    border-bottom: 1px solid lightgray;
     text-align: center;
     padding: 1rem 0;
 }
 
 .main-box{
-    border: 1px solid lightgray;
-    padding: 1rem;
+    padding: 2rem;
+}
+
+.main-box > h3{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.main-box > p{
+    margin: 2rem 0;
 }
 
 .main-box > button{
+    padding: 1rem 2rem;
     margin-left: 0;
+}
+
+.main-box > hr{
+    width: 3rem;
+    margin: 4rem 0;
+}
+
+.cost{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.gray{
+    display: block;
+    color: gray;
+    margin-bottom: 3.5rem;
 }
 
 .main2-box{
     position: relative;
-    border: 1px solid lightgray;
     padding: 1rem;
 }
 
@@ -160,6 +189,25 @@ label{
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+.main2-box > h3{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.main2-box > button{
+    padding: 1rem 2rem;
+}
+
+.main2-box > span{
+    display: inline-block;
+    font-weight: bold;
+    padding-bottom: 4rem;
+}
+
+.main2-box > p{
+    padding-bottom: 1.5rem;
 }
 
 /* partner section */
