@@ -174,10 +174,19 @@ label{
     margin-bottom: 1rem;
 }
 
+.fa-check{
+    color: #0061ff;
+}
+
 .gray{
     display: block;
     color: gray;
     margin-bottom: 3.5rem;
+}
+
+p > a{
+    text-decoration: underline;
+    color: blue;
 }
 
 .main2-box{
@@ -258,6 +267,12 @@ h3{
 
 .function-element > img{
     width: 100%;
+}
+
+.link2{
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
 }
 
 /* user's info */
@@ -342,9 +357,10 @@ h3{
 }
 
 .freetrial-h2{
-    padding: 0.5rem 0;
+    padding: 5rem 0;
     font-size: 3rem;
     margin: 0;
+    color: #61082b;
 }
 
 .freetrial-button{
@@ -359,6 +375,25 @@ h3{
 .questions{
     font-weight: bold;
     line-height: 5rem;
+}
+
+.question-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-chevron-down{
+    margin-right: 1rem;
+}
+
+.answers{
+    display: none;
+    padding-bottom: 2rem;
+}
+
+.questions:hover + .answers{
+    display: block;
 }
 
 /********* Footer *********/
@@ -390,14 +425,4 @@ h4{
     display: block;
     color: white;
     margin-bottom: 1rem;
-}
-
-.question-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.fa-chevron-down{
-    margin-right: 1rem;
 }
