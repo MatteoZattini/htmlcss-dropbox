@@ -18,6 +18,16 @@ nav{
     left: 0;
 }
 
+.nav-left > a:hover{
+    padding-bottom: 41px;
+    border-bottom: 2px solid black;
+}
+
+.nav-right > a:hover{
+    padding-bottom: 42px;
+    border-bottom: 2px solid black;
+}
+
 .nav-left  > a{
     margin: 1rem;
 }
@@ -167,13 +177,15 @@ h3{
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
-    min-height: 20rem;
+    aspect-ratio: 1 / 1;
+    /* min-height: 20rem; */
     border: 1px solid black;
 }
 
 .square{
     width: calc(100% / 2);
-    height: 316.16px;
+    aspect-ratio: 1 / 1;
+    /* height: 316.16px; */
     border: 1px solid black;
 }
 
@@ -228,14 +240,13 @@ h3{
 
 .footer-flex{
     display: flex;
-    gap: 2rem;
+    gap: 10rem;
 }
 
 .col{
     width: calc(100% / 5);
     height: 20rem;
     margin-top: 5rem;
-    border: 1px solid white;
     color: white;
 }
 
@@ -248,4 +259,14 @@ h4{
     display: block;
     color: white;
     margin-bottom: 1rem;
+}
+
+.question-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-chevron-down{
+    margin-right: 1rem;
 }
