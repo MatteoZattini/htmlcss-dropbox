@@ -290,9 +290,27 @@ h3{
     background-color: lightgray;
 }
 
+.middle-box{
+    padding: 3rem;
+}
+
+.middle-box > hr{
+    width: 5rem;
+    margin: 3.5rem 0;
+}
+
+.middle-box > img{
+    filter: invert(1);
+}
+
+.middle-box > p{
+    margin-bottom: 3rem;
+}
+
 .square{
     width: calc(100% / 2);
-    aspect-ratio: 1 / 1;
+    /* aspect-ratio: 1 / 1; */
+    height: 318px;
     display: flex;
     justify-content: center;
     align-items: center;
