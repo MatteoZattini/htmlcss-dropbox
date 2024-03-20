@@ -16,6 +16,8 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .nav-left > a:hover{
@@ -238,11 +240,19 @@ p > a{
 
 .partner-right{
     width: 40%;
-    margin-left: 1rem;
+    margin-left: 2rem;
+}
+
+.partner-right > h3{
+    font-size: 2rem;
 }
 
 .partner-right > button{
     margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
 }
 
 h3{
@@ -267,6 +277,11 @@ h3{
 
 .function-element > img{
     width: 100%;
+}
+
+.function-element > h3{
+    font-size: 2rem;
+    margin: 1.5rem 0;
 }
 
 .link2{
@@ -410,8 +425,12 @@ h3{
     padding-bottom: 2rem;
 }
 
-.questions:hover + .answers{
+.question-flex:hover .answers{
     display: block;
+}
+
+.question-flex:hover .fa-chevron-down{
+    transform: rotate(180deg);
 }
 
 /********* Footer *********/
